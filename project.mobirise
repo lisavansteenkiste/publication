@@ -1,0 +1,372 @@
+{
+  "settings": {
+    "currentPage": "inspiratie.html",
+    "versionFirst": "2.10",
+    "versionPublish": "3.12.1",
+    "name": "My Site",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "favicon": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-77131922-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "noImageResize": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "uniqCompNum": 5
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#efefef"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#efefef"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#efefef",
+            "hamburgerColor": "#efefef",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"ABOUT\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"WERKEN.html\">WERKEN</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            "I": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#c1c1c1"
+            },
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-7391-4272x2848-46.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "<font color=\"#c1c1c1\" face=\"Open Sans, sans-serif\"><span style=\"font-weight: normal;\">Lisa Van Steenkiste</span></font>",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\"></a><br>Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>."
+        }
+      ]
+    },
+    "WERKEN.html": {
+      "settings": {},
+      "components": [
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/lisa-hfksj-5136x3584-66-2000x1396-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lisa-hfksj-5136x3584-66.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/zeteltjes-5200x3544-10-2000x1363-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zeteltjes-5200x3544-10.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/hotel-sdfg-5120x3472-71-2000x1356-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hotel-sdfg-5120x3472-71.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-8027-2177x3265-62-2000x3000-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mg-8027-2177x3265-62.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-6",
+          "articleLayout": false
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6890-3534x2291-31-2000x1297-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6890-3534x2291-31.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7378-2584x3552-80-2000x2749-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7378-2584x3552-80.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7376-3614x2360-3-2000x1306-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7376-3614x2360-3.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-7",
+          "articleLayout": false
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/rood-huis-3432x2608-75-2000x1520-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/rood-huis-3432x2608-75.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7377-3884x2510-51-2000x1292-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7377-3884x2510-51.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7375-3684x1832-45-2000x995-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7375-3684x1832-45.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/papegaaistr-3612x2464-30-2000x1364-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/papegaaistr-3612x2464-30.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/brandon-3258x2304-87-2000x1414-7.jpg",
+                "image": "@PROJECT_PATH@/assets/images/brandon-3258x2304-87.jpg",
+                "active": true
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-8",
+          "articleLayout": false
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7381-3164x2228-50-2000x1408-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7381-3164x2228-50.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/tunnel-1902x3000-51-1902x3000-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tunnel-1902x3000-51.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-9",
+          "articleLayout": false
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\"></a><br>Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>."
+        }
+      ]
+    },
+    "inspiratie.html": {
+      "settings": {
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "gedicht Rutger Kopland",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#000000",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "header3-18",
+          "title": "INSPIRATIE",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4",
+          "text": "<p>Plek</p><p><br></p><p>De plek waar je woonde opzoeken</p><p>zien dat het huis weg is - afgebroken</p><p>en toch blijven zoeken</p><p><br></p><p>denken hier is het nog</p><p>weten dat het niet waar is</p><p>en toch denken hier is het</p><p><br></p><p>je loopt door de hal de gang in</p><p>de trap op naar je kamer</p><p>en je voelt de wind door je heengaan</p><p><br></p><p>in deze ruimte heb je geleefd-</p><p>alles kun je denken</p><p><br></p><p>Rutger Kopland</p><p><br></p>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\"></a><br>Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>."
+        }
+      ]
+    }
+  }
+}
