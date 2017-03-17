@@ -11,62 +11,19 @@
     },
     "favicon": "",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-77131922-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "noImageResize": "",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "uniqCompNum": 5
+    "uniqCompNum": 0
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Mobirise Mobile Website Builder",
-        "meta_descr": "",
+        "title": "",
+        "meta_descr": "voorpagina",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
-        {
-          "_name": "menu",
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#efefef"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#efefef"
-            },
-            ".mbr-navbar__items a": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
-            }
-          },
-          "_anchor": "menu-0",
-          "_params": {
-            "color": "#efefef",
-            "hamburgerColor": "#efefef",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
-            "logo": false,
-            "showBrand": false,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "images/logo.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "active": true
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"inspiratie.html\">INSPIRATIE</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"WERKEN.html\">WERKEN</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
-        },
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -80,13 +37,17 @@
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             }
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-7391-4272x2848-46.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/14329043-1806131022965099-1720413538-n-960x540-83.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -94,17 +55,17 @@
             },
             "bgVideoRadio": false,
             "contentAlign": "right",
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
+            "overlayColor": "#000000",
+            "showTitle": false,
             "showText": false,
-            "showButtons": false,
-            "showArrow": true
+            "showButtons": true,
+            "showArrow": false
           },
           "title": "<font color=\"#c1c1c1\" face=\"Open Sans, sans-serif\"><span style=\"font-weight: normal;\">Lisa Van Steenkiste</span></font>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"foto.html\" data-toolbar=\"-mbrBtnMove\">Meer</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"tekst.html\" data-toolbar=\"-mbrBtnMove\">tekst</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"tekst.html\" data-toolbar=\"-mbrBtnMove\">?</a> "
         },
         {
           "_name": "footer1",
@@ -132,241 +93,270 @@
         }
       ]
     },
-    "WERKEN.html": {
-      "settings": {},
-      "components": [
-        {
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "2",
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/lisa-hfksj-5136x3584-66-2000x1396-46.jpg",
-                "image": "@PROJECT_PATH@/assets/images/lisa-hfksj-5136x3584-66.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/zeteltjes-5200x3544-10-2000x1363-62.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zeteltjes-5200x3544-10.jpg",
-                "active": true
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/hotel-sdfg-5120x3472-71-2000x1356-72.jpg",
-                "image": "@PROJECT_PATH@/assets/images/hotel-sdfg-5120x3472-71.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/mg-8027-2177x3265-62-2000x3000-68.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mg-8027-2177x3265-62.jpg",
-                "active": false
-              }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": true,
-            "noGutter": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-6",
-          "articleLayout": false
-        },
-        {
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-6890-3534x2291-31-2000x1297-9.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-6890-3534x2291-31.jpg",
-                "active": true
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7378-2584x3552-80-2000x2749-45.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-7378-2584x3552-80.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7376-3614x2360-3-2000x1306-44.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-7376-3614x2360-3.jpg",
-                "active": false
-              }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": true,
-            "noGutter": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-7",
-          "articleLayout": false
-        },
-        {
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/rood-huis-3432x2608-75-2000x1520-40.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rood-huis-3432x2608-75.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7377-3884x2510-51-2000x1292-36.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-7377-3884x2510-51.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7375-3684x1832-45-2000x995-35.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-7375-3684x1832-45.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/papegaaistr-3612x2464-30-2000x1364-40.jpg",
-                "image": "@PROJECT_PATH@/assets/images/papegaaistr-3612x2464-30.jpg",
-                "active": false
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/brandon-3258x2304-87-2000x1414-7.jpg",
-                "image": "@PROJECT_PATH@/assets/images/brandon-3258x2304-87.jpg",
-                "active": true
-              }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": true,
-            "noGutter": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-8",
-          "articleLayout": false
-        },
-        {
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7381-3164x2228-50-2000x1408-18.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-7381-3164x2228-50.jpg",
-                "active": true
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/tunnel-1902x3000-51-1902x3000-41.jpg",
-                "image": "@PROJECT_PATH@/assets/images/tunnel-1902x3000-51.jpg",
-                "active": false
-              }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": true,
-            "noGutter": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-9",
-          "articleLayout": false
-        },
-        {
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "color": "#000000"
-            }
-          },
-          "_anchor": "footer1-10",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\"></a><br>Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>."
-        }
-      ]
-    },
-    "inspiratie.html": {
+    "foto.html": {
       "settings": {
-        "title": "Mobirise Mobile Website Builder",
-        "meta_descr": "gedicht Rutger Kopland",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
+        "title": "",
+        "meta_descr": "archief"
       },
       "components": [
         {
-          "_name": "header3",
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/13933159-1789390841305784-1683827075-n-960x540-73-960x540-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13933159-1789390841305784-1683827075-n-960x540-73.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/13942690-1789390864639115-2096954693-n-308x456-6-308x456-75.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13942690-1789390864639115-2096954693-n-308x456-6.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14328876-1806131016298433-752717818-n-540x900-26-540x900-83.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14328876-1806131016298433-752717818-n-540x900-26.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14331592-1805923992985802-566702926-n-720x960-69-720x960-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14331592-1805923992985802-566702926-n-720x960-69.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14331746-1805924156319119-1580227881-n-720x960-81-720x960-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14331746-1805924156319119-1580227881-n-720x960-81.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14341418-1806130669631801-681265995-n-520x792-25-520x792-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14341418-1806130669631801-681265995-n-520x792-25.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14341590-1806130789631789-150587545-n-copy-414x291-78-414x291-19.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14341590-1806130789631789-150587545-n-copy-414x291-78.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14341694-1806130839631784-742867063-n-906x591-88-906x591-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14341694-1806130839631784-742867063-n-906x591-88.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14699708-1819192964992238-189939471-n-720x960-64-720x960-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14699708-1819192964992238-189939471-n-720x960-64.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14694783-1819194008325467-1856462373-n-341x450-2-341x450-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14694783-1819194008325467-1856462373-n-341x450-2.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14658359-1819194771658724-1629885188-n-720x960-44-720x960-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14658359-1819194771658724-1629885188-n-720x960-44.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14642692-1819194064992128-2129468498-n-933x696-10-933x696-29.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14642692-1819194064992128-2129468498-n-933x696-10.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14459674-1809658429279025-722183046-n-550x569-83-550x569-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14459674-1809658429279025-722183046-n-550x569-83.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14459073-1809658415945693-1597226691-n-720x868-88-720x868-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14459073-1809658415945693-1597226691-n-720x868-88.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14365240-1805924259652442-396197296-n-540x960-49-540x960-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14365240-1805924259652442-396197296-n-540x960-49.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14355951-1806130666298468-1317558755-n-407x640-0-407x640-21.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14355951-1806130666298468-1317558755-n-407x640-0.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14348861-1805923719652496-1704223563-n-720x632-1-720x632-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14348861-1805923719652496-1704223563-n-720x632-1.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14348804-1805923816319153-889651636-n-584x804-9-584x804-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14348804-1805923816319153-889651636-n-584x804-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/14341942-1805923806319154-1215255357-n-720x960-42-720x960-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14341942-1805923806319154-1215255357-n-720x960-42.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-15",
+          "articleLayout": true
+        }
+      ]
+    },
+    "tekst.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "correspondentie rond scriptie met Ellen Schroven"
+      },
+      "components": [
+        {
+          "_name": "image2",
+          "_anchor": "image2-17",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-17-at-15-500x526-31.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-17-at-15-446x628-58-446x628-69.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-17-at-15-446x628-58.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-17-at-15-415x248-43-415x248-41.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-17-at-15-415x248-43.png",
+                "active": true
+              }
+            ],
+            "showText": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-19",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
           "_styles": {
-            "H3": {
-              "color": "#000000",
+            "DIV": {
+              "font-size": "11px",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             }
           },
-          "_anchor": "header3-18",
-          "title": "<a href=\"inspiratie.html\">INSPIRATIE</a>",
-          "_params": {
-            "showMeta": false
-          },
-          "meta": ""
+          "_anchor": "content1-8",
+          "text": "<p>•\tIk ben buiten aan het spelen, voor de deur. Mama zei dat ik moest oppassen voor Stan, de geit. Hij kan me pijn doen. Hij loopt los rond naast de wei. Ik ga dichterbij. Hij negeert me, nog wat dichter. Ik sta pal voor hem. Hij bokt, recht tegen mijn voorhoofd. Ik ga terug naar binnen. Mama vraagt waar die lelijke schram vandaan komt. Ik heb niet veel te zeggen.\r•\tIk zit neer op de kiezelstenen van de oprit. Simon zit wat verder. Ik smijt een steen naar hem. Als ik dat nog een keer doe zal hij mij onder de koude douche steken zegt hij. Ik smijt nog een steen. Hij pakt me op, keert me ondersteboven en steekt mij onder de douche met koud water. Ik begin te lachen. Het gaat over in wenen. Mama is kwaad op Simon.\r•\tSarah is aan het schilderen op de muur in de living. Het is haar eindwerk voor school met allemaal verschillende onderdelen, rechthoeken, die ze een voor een schildert. Soms schrijft ze er een tekst in, dan maakt ze er een tekening in. Ik mag in een vakje ook een tekening schilderen. Ik ben trots.\r•\tMama en Sarah staan in de keuken. Ik wandel binnen al neuspeuterend. Ze stoppen met wat ze doen en kijken naar mij. Ik haal een grote flubberige snottenbel uit. Ze roepen eeeeeh en lopen weg. Ik ben een vies kind.\r•\tIk zit op de bank. Simon komt binnen met de kat en legt ze naast me op de bank. Hij zegt dat ze in het hondenhok gegaan is. Luka heeft haar staart afgebeten. Hij zegt dat ze veel pijn heeft.\r•\tHet is avond, al donker buiten. Pol heeft net de stoof aangestoken, het is winter en koud. De deurtjes staan open. Ik moet oppassen voor de kolen. Even later roept hij me naar de keuken. Ik loop er enthousiast heen, maar trap op een gloeiende kool die net weg knetterde uit de stoof. Het is een van de enigste littekens die ik nu nog heb.\r•\tWe zitten in de living samen met vrienden van Mama en Pol. Iedereen babbelt door elkaar. Ik verveel mij en heb dorst. Ik drink een glas water op de tafel in een teug leeg. Even later merk ik dat iedereen me raar aankijkt. Ze vragen waarom ik niet recht meer loop. Dan kijkt Tine naar haar glas. “Ze heeft mijn wijn uitgedronken!” \r•\tPol zegt dat ik Stan, de beste vriend van Simon, altijd vieze vette wortel mag noemen. Hij vind het grappig. \r•\tIk zit met Stan en Simon in de auto. We rijden naar huis. Ik zie mooie rode bloemen langs de weg. Stan zegt dat als je ze plukt ze na een dag al verwelken. Je kan ze moeilijk bijhouden. Ik wil er toch graag een. We stoppen, en ik krijg een klaproos van Stan. De dag erna is ze kapot. Ik ben verdrietig.\r•\tIk heb een nieuwe bellenblaas gekregen. Ik zit buiten in het gras voor de caravan in onze tuin, samen met Sarah en Matthieu. Matthieu is het lief van Sarah. Ik ben bellen aan het blazen. Matthieu neemt het blaasgedeelte en steekt het helemaal in zijn mond, ook al hangt er nog zeep aan. Ik ben boos, Matthieu is niet leuk. \r•\tIk heb van een vriend van Mama een Pony gekregen. Ze is al oud en ze heet Pauline. Ze zit bij Pol in de wei. Ik mag er op rijden, zonder zadel. \r•\tPauline is gestorven. Pol begraaft ze in de wei naast ons huis.\r•\tIk ga in het weekend naar Pol. Het is zomer en mooi weer. ’S Avonds kijken we naar FC de Kampioenen. Daarna gaan we wandelen in het maïsveld van de boer achter ons huis. We spelen verstoppertje. Er staat veel onkruid en netels tussen de maïs, het prikt aan mijn benen. Dan gaan we slapen. Ik heb een grote opblaasdolfijn voor in het zwembad. Deze slaapt tussen ons. Ik mag veel leuke dingen van Pol.\r•\tPol gaat boodschappen doen. Ik blijf alleen thuis met Simon. Hij kijkt TV. Hij zegt dat ik eens mag trekken van zijn sigaret. Ik zeg dat dat niet mag van Pol. Hij zegt van wel. Ik trek ervan. Pol komt net thuis. Hij is kwaad op Simon. Het was een joint.\r•\tDe nagel van mijn middelvinger gaat eraf vallen. Mama heeft er een bruin hoesje rond gedaan om het te beschermen. Sarah komt thuis. Met gebalde vuist steek ik de vinger trots op naar haar. Ze zegt dat ik dat niet mag doen, het is een vuil gebaar.\r•\tIk mag met Sarah in bad. Ik ben verrukt, alles wat ik met Sarah mag doen is leuk. Even later springt ze eruit en wil ze er niet meer in. Dan zie ik een bruin drolletje drijven. Ik heb er niks van gemerkt. Mama lacht.\r•\tSimon wil naar een nieuwe videoclip kijken op TV. Ik wil meekijken, maar het mag niet, het is te eng. Ik blijf zagen om het toch te zien. Ik kijk mee. In de clip, come to daddy van Aphex Twin,  spelen er TV’s met vervormde gezichten. ’s Avonds lig ik op mijn rug in mijn bed in het donker. Ik zie de gezichten op het plafond voor me. Ik roep mama, ze is kwaad. Ziejewel!\r•\tSarah heeft een paard gekregen, Lightningh. Hij heeft een kapotte poot. Het was vroeger een renpaard, maar hij is niet goed genoeg meer. Hij mag bij ons blijven. Hij is schuw. We mogen er niet op rijden, alleen Sarah. \r•\tAls we gaan wandelen gaan we altijd iets drinken in het café. Het heet d’Oude Stove. Er is een leuke speeltuin. De baas heeft altijd een andere vreemde bril op met veel krullen. Hij zegt dat ze heel speciaal zijn.\r•\tIn het Kluisbos gaan we ook vaak wandelen. Daar zit een ezeltje dat Tequila heet. Ik verlang altijd om ze te zien. Ik kan ze altijd aaien. \r•\tSarah heeft een vriend op bezoek. Hij heet Salami volgens mij. Sarah zegt dat ik het verkeerd uitspreek. Ik snap niet hoe ik het juist moet uitspreken.\r•\tPieter konijn 3 is weggelopen. Mama zegt dat hij bij Pieter Konijn 1 en 2 is in het veld van de boer naast ons huis. Ze vinden het daar leuker omdat ze gangetjes kunnen graven in de aarde. Als we van de oprit kijken kijk ik telkens op het veld om hen te zoeken. Ik zie hen nooit.\r•\tSinterklaas heeft een mooi boekje gebracht. Het heet “Het Kipje Troela”. Er zit ook een luistercasette bij. Het is een versie van de fabel Henny Penny. Hij denkt dat de lucht naar beneden zal vallen en zet heel het land in rep en roer. Het boekje dat ik had waren met tekeningen van Graham Percy. Ik vind dit alleen terug in het Spaans. \r</p>"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
           "_name": "content1",
-          "_anchor": "content1-4",
-          "text": "<p>Plek</p><p><br></p><p>De plek waar je woonde opzoeken</p><p>zien dat het huis weg is - afgebroken</p><p>en toch blijven zoeken</p><p><br></p><p>denken hier is het nog</p><p>weten dat het niet waar is</p><p>en toch denken hier is het</p><p><br></p><p>je loopt door de hal de gang in</p><p>de trap op naar je kamer</p><p>en je voelt de wind door je heengaan</p><p><br></p><p>in deze ruimte heb je geleefd-</p><p>alles kun je denken</p><p><br></p><p>Rutger Kopland</p><p><br></p>"
-        },
-        {
-          "_name": "footer1",
           "_styles": {
             "P": {
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "DIV": {
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "color": "#000000"
+              "font-size": "11px"
             }
           },
-          "_anchor": "footer1-10",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+          "_anchor": "content1-20",
+          "text": "De wekker gaat af. Ik lig op het randje van het bed. Het lichaam naast mijne neemt veel plaats in. Mijn ogen gaan open en ik zie de vloer voor mij, het vlak uitgestrekt onderbroken door een knikker. Welke mensen zouden deze vloer al bewandeld hebben? Daar mag ik straks niet op trappen. Mijn keel is ruw. Binnen 20 jaar krijg ik kanker, mocht ik zo verder roken. Ik sta op en stommel naar de stoel waar mijn kleren liggen. Pijn schiet door mijn voet. Kankerknikker. Ik doe mijn kleren aan. Hij staat ook op en volgt in stilte mijn voorbeeld. We gaan samen naar beneden en ik maak voor ieder een broodje. Ik zie ons later al zitten op de bank, precies zoals nu. Zouden we nog samen zijn dan? We vertrekken naar waar we moeten zijn. Wandelen is beter voor onze fysiek, anders krijgen we later spijt als we verstilde spieren hebben. We passeren de korenmarkt. Er staat een draaimolen. Toen ik klein was ging ik altijd samen met Mémé. Dat was leuk. In de supermarkt zijn de klaphekjes weer stuk, dat is altijd zo, zou er ooit een tijd komen dat ze werken? In welke omstandigheden zal ik me dan bevinden? Zal ik nog op de goede weg zijn? We gaan verder op de Rue de l’Assomption. Metro’s passeren. Hoe zouden de levens zijn van de mensen die erop zitten? Ze zitten nu allemaal in dezelfde richting, wanneer splitsen hun wegen? Hij leest een tijdschrift, dat vind ik tijdverspilling. We zouden beter bedenken wat we morgen gaan doen. Een man kijkt me aan. Vraagt hij zich ook af wat mijn richting is? We stappen af, en twee agenten op. Gelukkig zijn we geen kwartier vroeger vertrokken. We komen aan, het middagmaal staat al klaar. Ik ga even naar het wc zodat ik straks niet meer hoef. We eten en drinken samen uit een witte kom. Welke mensen zouden hun lippen hier al aangezet hebben? Wat zouden die nu \n\nDe wekker gaat af. Ik doe mijn ogen open. Ze staat al recht met haar voet op een knikker. Ik neem de kamer in mij op terwijl ik de slaap uit mijn ogen wrijf. Ik volg haar voorbeeld en doe mijn kleren aan. Het flanel hemd voelt prettig aan mijn huid. De vloer is koud, ik doe snel mijn sokken aan. We gaan naar beneden. Ik kijk hoe ze een broodje maakt. Haar pols maakt sierlijke bewegingen, het mes streelt het brood. We eten, het is droog. We gaan weg, de deur vlamt dicht, het slot is kapot. Mijn voeten zitten geklemd in mijn schoenen tijdens het wandelen. De stad strekt zich als een bos voor ons uit. Op de Korenmarkt passeren we een draaimolen die een hels lawaai maakt. De zoemende stilte van de supermarkt doet deugd. De klaphekjes zijn stuk, ik spring erover. Hoger dan ik dacht, ik val bijna. In de Rue de l’Assomption nemen we de metro. De Britse schilder David Hockney wordt begin juli gevierd in zijn geboortestad Bradford. Twee dagen voor zijn 80e verjaardag op 9 juli opent een permanente galerij in het museum Cartwright Hall die aan het werk van David Hockney gewijd wordt. Cartwright Hall bezit de grootste openbare collectie met werken van de kunstenaar uit zijn vroege periode.  We zijn er. Een man kijkt naar haar, ik heb een mooie vriendin. We stappen af, en twee agenten op. Ze zien er verveeld uit. We komen binnen. De lezing is nog niet begonnen. Er zijn sandwiches die we eten, en water uit een witte vaalgrauwe kom. Aan de binnenkant staan er strepen. Ik vind het een beetje vies. \n\n\n\naan het doen zijn? Zou er al iemand van dood zijn?\n"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "11px"
+            }
           },
-          "text": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\"></a><br>Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>."
+          "_anchor": "content1-22",
+          "text": "<b>Herinnering</b><div><br></div><div>Ik heb je nog maar net leren kennen en ik maak nu al herinneringen van wat nog moet komen.</div><div>_____________________</div><div><br></div><div>Herinnering</div><div>Her Inner Ing. Opnieuw opnemen, opnieuw beleven. De etymologie van het woord ontspruit in het Duits.</div><div>Erinnern. De letterlijke vertaling is terugroepen. Dit wist erop dat we een vrije wil hebben in het ophalen</div><div>van herinneringen.We kunnen zelf kiezen wanneer we terug roepen naar iets dat al gepasseerd is. Maar&nbsp;</div><div>of het dan ook effectief terug naar ons toe komt is een andere zaak. Roepen kunnen we zoveel we willen. Jammergenoeg wordt er niet altijd gehoor gegeven aan ons geroep.</div><div>Tevens doet de Duitse vertaling denken aan het West-Vlaams. Zoals ik het lees, zou ik het op dezelfde manier uitspreken. Erinnerdju nog?</div><div>____________________________________________</div><div><br></div><div>Memeetje,&nbsp;</div><div>We schrijven vaak brieven. Over alledaagse dingen. Over het liedje uit den Congo dat je begon te zingen in de groep, en hoe raar iedereen wel niet keek; over Els, de animatrice die pijn heeft aan haar voet; over dat meneer Vandenberghe gestorven is en dat het zo’n grappig ventje was; over dat je alles vergeet; over de vraag of ik het wel warm genoeg heb daar in Gent; over hoe het gaat bij mij op school. Dat is het enige waar je het over kan hebben. Zelfs in je brieven begin je jezelf te herhalen.&nbsp;</div><div>Laatst schreef je: ‘Lisa, je weet niet hoe moeilijk het is om deze brief te schrijven. Vroeger kon ik zo mooi schrijven en nu gaat het zo moeilijk.’ Ik moest huilen.</div><div>Nu schrijf ik je een brief die ik nooit zal versturen.&nbsp;</div><div>Vroeger waren we zo hecht, (maar nu is dat moeilijk voor mij. )</div><div>Alzheimer maakt nu al een herinnering van je. Je rimpels worden dieper maar de contouren van je karakter vervagen.</div><div>Je weet het zelf ook. Krampachtig probeer je je vast te houden aan het verleden. Ik merk dat ik hetzelfde doe in mijn werk op school en in mijn leven. Onbewust onderga ik hetzelfde proces. Het heden mijd ik door chaos die ik zelf creëer, daar kan ik niet in leven. Het verleden zoek ik op, en de toekomst maak ik op voorhand al kapot. Mijn kortetermijngeheugen is zoals dat van jou onscherp. Sommige dingen die ik heb gedaan herinner ik me niet meer of verkeerd.&nbsp;</div><div>De laatste tijd zoek ik je niet meer op, het gaat niet meer. Het gaat niet om binnen te stappen in deze ruïnes, waar scheve kaders aan de muren hangen, waar ramen uitgebroken zijn en waar de wind door de gaten in het dak waait.&nbsp;</div><div>We gaan misschien allebei op zoek naar de plekken in het verleden waar we ons samen zo goed voelden. Maar als ik hier ook binnenkom merk ik dat ze ook aan het vervagen zijn.&nbsp;</div><div>Toch zie ik iedere keer mezelf als ik bij je ben. De demonen die je je hele leven najaagden jagen mij nu ook na. Achterdocht en onzekerheid bepalen ons handelen, en de keuzes die we maken.&nbsp;</div><div><br></div><div>__________________________</div>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-23",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0004-2311x2236-44.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         }
       ]
+    },
+    "about.html": {
+      "settings": {},
+      "components": []
     }
   }
 }
